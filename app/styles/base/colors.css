@@ -1,0 +1,8 @@
+@layer base {
+  body {
+    --color-text: 252, 243, 0; /* Gold */
+    --color-background: 93, 78, 96; /* Crimson */
+    color: rgb(var(--color-text));
+    background: rgb(var(--color-background));
+  }
+}
