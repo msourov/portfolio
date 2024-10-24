@@ -8,7 +8,7 @@ import Hero from './sections/Hero';
 import Projects from './sections/Projects';
 
 const metaTitle = 'Mahmud Hasan Sourov | Software Engineer';
-const metaDescription = `Mahmud Hasan Sourov is a Software Engineer who crafts unique software solutions and digital experiences that solve real-world problems.`;
+const metaDescription = `Mahmud Hasan Sourov is a Software Engineer who crafts unique customized software solutions and digital experiences that solve real-world problems.`;
 
 const metaOgImages = [
   {

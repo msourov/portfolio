@@ -36,3 +36,4 @@ next-env.d.ts
 
 /app/hooks/
 /app/components/
+/sections/Projects.tsx
