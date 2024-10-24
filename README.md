@@ -1,4 +1,4 @@
-The first version of my [personal website](https://jfmartinez.dev). It's a simple portfolio website that showcases my projects and skills. It's built with [NextJS](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/).
+It's a simple portfolio website that showcases my projects and skills. It's built with [NextJS](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/).
 
 ## Installation :wrench:
 
