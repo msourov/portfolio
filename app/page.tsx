@@ -1,4 +1,3 @@
-// istanbul ignore file
 import { Metadata } from 'next';
 import About from './sections/About';
 import Contact from './sections/Contact';

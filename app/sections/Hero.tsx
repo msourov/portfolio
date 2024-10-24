@@ -13,12 +13,12 @@ const Hero = () => (
     <p className="sm:max-w-[500px] xl:max-w-[700px]">
       As a software developer, I&apos;m driven by the challenge of creating responsive, user-centric
       applications that solve real-world problems. My experience spans several sectors, from
-      enhancing business productivity to innovating in e-commerce and crisis management. Skilled in
-      crafting smooth, user-friendly frontend interfaces, with experience building robust, scalable
-      backend systems.. As an independent contractor, I have the privilege of collaborating on
-      complex projects where I can apply my full-stack expertise to deliver impactful, scalable
-      solutions. My goal is to keep pushing boundaries, always with an eye towards creating
-      meaningful solutions for users and businesses alike.
+      enhancing business productivity to innovating in e-commerce. Skilled in crafting smooth,
+      user-friendly frontend interfaces, with experience building robust, scalable backend systems..
+      As an independent contractor, I have the privilege of collaborating on complex projects where
+      I can apply my full-stack expertise to deliver impactful, scalable solutions. My goal is to
+      keep pushing boundaries, always with an eye towards creating optimal solutions for users and
+      businesses alike.
     </p>
     <Button className="mt-[32px]" href={process.env.resumeUrl || ''} target="_blank" download>
       Download my resume

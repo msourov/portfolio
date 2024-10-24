@@ -1,4 +1,3 @@
-// istanbul ignore file
 import { IconType } from 'react-icons';
 import { FaGithub, FaLinkedin, FaHackerrank } from 'react-icons/fa';
 import { SiLeetcode } from 'react-icons/si';
@@ -38,7 +37,7 @@ export const FEATURED_PROJECTS_DATA: ProjectInterface[] = [
     description:
       'Built a real-time crisis response system featuring RBAC to manage admin, volunteers and visitors using Express, MySQL,and React enabling volunteers to view and respond to crises, donate and manage inventory. Applied MVC architecture for scalability and modularity',
     tech: ['Nodejs', 'Expressjs', 'MySQL', 'React', 'RTK Query', 'MantineUI'],
-    image: '/featured/portfolio.webp',
+    image: '/featured/disaster_management.png',
     links: {
       github: 'https://github.com/msourov/disaster-management',
       demo: '/',
@@ -50,10 +49,10 @@ export const FEATURED_PROJECTS_DATA: ProjectInterface[] = [
     description:
       'Developed an HR management solution with features like RBAC for admin and employee management, ticketing, payroll, resource allocation etc.',
     tech: ['ReactTS', 'MantineUI', 'Redux Toolkit', 'React Hook Form + zod'],
-    image: '/featured/wholesale.webp',
+    image: '/featured/hrms.png',
     links: {
       github: 'https://github.com/msourov/HR-Tetris',
-      demo: '',
+      demo: 'https://hr-tetris-pz34xajkh-st33lrabb1ts-projects.vercel.app',
     },
   },
   {
@@ -62,29 +61,50 @@ export const FEATURED_PROJECTS_DATA: ProjectInterface[] = [
     description:
       'Developed a scalable e-commerce platform with multi-role support (admin, seller, customer), featuring KYC, editable RFQs with drafting, managing quotes, product, orders etc. ',
     tech: ['React', 'Redux', 'Axios', 'MaterialUI'],
-    image: '/featured/petplant.webp',
+    image: '/featured/scents-orbit.png',
     links: {
       github: 'https://github.com/Scents-Orbit/dashboard',
       demo: '',
     },
   },
+  {
+    name: 'Storybook',
+    type: '',
+    description:
+      'A full-stack fully responsive story-telling platform using Next.js API routes and MongoDB, featuring Role-Based Access Control (RBAC). Users can post stories, like and comment on them, and share.',
+    image: '/featured/storybook.png',
+    links: { demo: '', github: 'https://github.com/msourov/story-craft' },
+    tech: ['NextTs, MongoDB'],
+  },
 ];
 
 export const PROJECTS_DATA: Omit<ProjectInterface, 'image'>[] = [
   {
-    name: 'Minigrep',
-    type: 'CLI',
+    name: 'Amvines Logistics',
+    type: 'Web App',
     description:
-      'A very simple implementation of the basic functionality of the grep command-line tool using Rust.',
-    links: { demo: '', github: 'https://github.com/jhonny9550/minigrep' },
-    tech: ['Rust'],
+      'Amvines Logistics landing page provides essential company information and a parcel tracking form for efficient shipment management.',
+    links: { demo: 'https://www.amvinesbd.com/', github: 'https://github.com/msourov/amvines-landing-edit' },
+    tech: ['React', 'Axios'],
   },
   {
-    name: 'Bingo Game',
+    name: 'Next14 concepts showcase',
     type: 'Web App',
-    description: 'A bingo game that you can play with your friends.',
-    links: { demo: '', github: 'https://github.com/jhonny9550/bingo-game' },
-    tech: ['React', 'TailwindCSS', 'Vite', 'AWS'],
+    description:
+      'A website to showcase nextjs SSR, SSG, ISR concepts using Unsplash API and Next14.',
+    links: { demo: '', github: 'https://github.com/msourov/next14-concepts-showcase' },
+    tech: ['Next14', 'Unsplash API', 'Vite'],
+  },
+  {
+    name: 'Affectum Dashboard',
+    type: 'Web App',
+    description:
+      'This site features a fully responsive dashboard template. Designed using dummy data. Built with ReactJS, MantineUI, AntD, TailwindCSS etc.',
+    links: {
+      demo: 'https://affectum-dashboard-v1.vercel.app/',
+      github: 'https://github.com/msourov/next14-concepts-showcase',
+    },
+    tech: ['Next14', 'Unsplash API', 'Vite'],
   },
 ];
 
@@ -106,12 +126,12 @@ export const TECH_STACK_DATA: { label: string; icon: string }[] = [
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg',
   },
   {
-    label: 'Redux',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg',
-  },
-  {
     label: 'NextJS',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg',
+  },
+  {
+    label: 'Redux',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg',
   },
   {
     label: 'NodeJS',

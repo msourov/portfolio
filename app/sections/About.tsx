@@ -25,8 +25,8 @@ const About = () => (
         <ul className="bullet-list font-mono grid grid-cols-2 gap-y-3.5 gap-x-2 xl:gap-x-14">
           {TECH_STACK_DATA.map(tech => (
             <li key={tech.label} className="flex items-center">
-              <Image src={tech.icon} alt="3DS Max Icon" width={25} height={25} />
-              <span className="ml-2 text-lg">{tech.label}</span>
+              <Image src={tech.icon} alt="3DS Max Icon" width={20} height={20} />
+              <span className="ml-2 text-md">{tech.label}</span>
             </li>
           ))}
         </ul>

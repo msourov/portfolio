@@ -7,15 +7,16 @@ import { withEntranceAnimation } from '../components/EntranceWrapper';
 const Contact = () => (
   <section className="section-container sm:gap-8" id="contact">
     <SectionHeading centered icon={TbMail}>
-      Contact me
+      Contact
     </SectionHeading>
     <div className="text-center max-w-[580px] mx-auto">
       <p>
-        Feel free to get in touch anytime, send me an email or message me through social media. I’m
-        keen to answer a question or if you just want to say hello. I’ll reply as soon as I can.
+        I’d love to hear from you! Whether you have a question about my services, need assistance,
+        or just want to connect, feel free to reach out anytime. You can message me through social
+        media or send a mail. I’m happy to help and will get back to you as soon as possible.
       </p>
-      <Button href="mailto:jhonny9550@gmail.com" target="_blank" className="mt-8 mx-auto">
-        Say hi 👋
+      <Button href="mailto:mahmud.sv9@gmail.com" target="_blank" className="mt-8 mx-auto">
+        Contact me via email
       </Button>
     </div>
   </section>
