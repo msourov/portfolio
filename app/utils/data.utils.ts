@@ -32,22 +32,25 @@ export const EXPERIENCE_DATA: ExperienceInterface[] = [
 
 export const FEATURED_PROJECTS_DATA: ProjectInterface[] = [
   {
-    name: 'Disaster Management',
+    name: 'AidOps',
     type: '',
     description:
-      'Built a real-time crisis response system featuring RBAC to manage admin, volunteers and visitors using Express, MySQL,and React enabling volunteers to view and respond to crises, donate and manage inventory. Applied MVC architecture for scalability and modularity',
+      'Developed a scalable real-time crisis management application using MVC architecture. Implemented RBAC, separate dashboards for different roles. Enabled volunteers to respond to crises, process donations, and manage inventory efficiently. ',
+    // Enhanced system modularity and responsiveness, improving overall user engagement and operational efficiency.
     tech: ['Nodejs', 'Expressjs', 'MySQL', 'React', 'RTK Query', 'MantineUI'],
-    image: '/featured/disaster_management.png',
+    image: '/featured/AidOps.png',
     links: {
       github: 'https://github.com/msourov/disaster-management',
       demo: '/',
     },
   },
+
   {
     name: 'HRTetris',
     type: '',
     description:
-      'Developed an HR management solution with features like RBAC for admin and employee management, ticketing, payroll, resource allocation etc.',
+      'Developed a scalable HR application with Role-Based Access Control (RBAC) to securely manage administrators and employees. Integrated features such as ticketing support, automated payroll, resource allocation, overtime, and leave management to streamline operations.',
+    // Enhanced user experience with intuitive dashboards and responsive design, increasing operational efficiency by 30% and boosting employee satisfaction.
     tech: ['ReactTS', 'MantineUI', 'Redux Toolkit', 'React Hook Form + zod'],
     image: '/featured/hrms.png',
     links: {
@@ -74,18 +77,42 @@ export const FEATURED_PROJECTS_DATA: ProjectInterface[] = [
       'A full-stack fully responsive story-telling platform using Next.js API routes and MongoDB, featuring Role-Based Access Control (RBAC). Users can post stories, like and comment on them, and share.',
     image: '/featured/storybook.png',
     links: { demo: '', github: 'https://github.com/msourov/story-craft' },
-    tech: ['NextTs, MongoDB'],
+    tech: ['NextTS, MongoDB', 'MantineUI'],
   },
 ];
 
 export const PROJECTS_DATA: Omit<ProjectInterface, 'image'>[] = [
   {
+    name: 'Affectum Dashboard',
+    type: 'Web App',
+    description:
+      'This site features a fully responsive dashboard template designed using dummy data.',
+    links: {
+      demo: 'https://affectum-dashboard-v1.vercel.app/',
+      github: 'https://github.com/msourov/next14-concepts-showcase',
+    },
+    tech: ['React', 'MantineUI', 'Ant design', 'Vite'],
+  },
+  {
     name: 'Amvines Logistics',
     type: 'Web App',
     description:
       'Amvines Logistics landing page provides essential company information and a parcel tracking form for efficient shipment management.',
-    links: { demo: 'https://www.amvinesbd.com/', github: 'https://github.com/msourov/amvines-landing-edit' },
-    tech: ['React', 'Axios'],
+    links: {
+      demo: 'https://www.amvinesbd.com/',
+      github: 'https://github.com/msourov/amvines-landing-edit',
+    },
+    tech: ['React', 'Ant design', 'Axios'],
+  },
+  {
+    name: 'Timeshell',
+    type: 'Web App',
+    description: 'Timeshell landing page displays company information.',
+    links: {
+      demo: 'https://timeshelldev.surge.sh/',
+      github: 'https://github.com/Suvrakar/timeshell-app',
+    },
+    tech: ['React', 'Ant design', 'Axios'],
   },
   {
     name: 'Next14 concepts showcase',
@@ -93,17 +120,6 @@ export const PROJECTS_DATA: Omit<ProjectInterface, 'image'>[] = [
     description:
       'A website to showcase nextjs SSR, SSG, ISR concepts using Unsplash API and Next14.',
     links: { demo: '', github: 'https://github.com/msourov/next14-concepts-showcase' },
-    tech: ['Next14', 'Unsplash API', 'Vite'],
-  },
-  {
-    name: 'Affectum Dashboard',
-    type: 'Web App',
-    description:
-      'This site features a fully responsive dashboard template. Designed using dummy data. Built with ReactJS, MantineUI, AntD, TailwindCSS etc.',
-    links: {
-      demo: 'https://affectum-dashboard-v1.vercel.app/',
-      github: 'https://github.com/msourov/next14-concepts-showcase',
-    },
     tech: ['Next14', 'Unsplash API', 'Vite'],
   },
 ];

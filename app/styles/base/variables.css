@@ -18,7 +18,7 @@
 
   @media (prefers-color-scheme: dark) {
     :root {
-      --color-primary: 240 101 67;
+      /* --color-primary: 240 101 67; */
       --color-accent: 240 157 81;
       --color-text: 179 179 179;
       --color-paper: 44 46 62;
